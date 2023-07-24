@@ -13,9 +13,15 @@
 # In languages with no distinct character data type, the second argument will be a string of length 1
 
 
+# Using Count Method
+def str_count(strng, letter):
+    return strng.count(letter)
+
+
+# Brute force
 def str_count(strng, letter):
     count = 0
-    
+
     for char in strng:
         if char == letter:
             count += 1
