@@ -6,6 +6,10 @@
 # b = 4
 # --> [1, 2, 3, 4]
 
-
+# first solution
 def between(a, b):
     return [num for num in range(a, b + 1)]
+
+# second solution 
+def between(a, b):
+    return list(range(a, b + 1))
