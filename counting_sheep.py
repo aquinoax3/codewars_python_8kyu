@@ -21,3 +21,8 @@ def count_sheeps(sheep):
             count += 1
 
     return count
+
+
+# Cleaner Code
+def count_sheeps(sheep):
+    return sheep.count(True)
