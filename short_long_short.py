@@ -14,3 +14,8 @@ def solution(a, b):
         return a + b + a
     else:
         return b + a + b
+
+
+# Cleaner Solution
+def solution(a, b):
+    return a + b + a if len(a) < len(b) else b + a + b
