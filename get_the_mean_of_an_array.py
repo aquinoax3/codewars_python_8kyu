@@ -14,3 +14,9 @@ def get_average(marks):
     for num in marks:
         total += num
     return math.floor(total / len(marks))
+
+# Cleaner Code
+def get_average(marks):
+    total = sum(marks) / len(marks)
+
+    return math.floor(total)
