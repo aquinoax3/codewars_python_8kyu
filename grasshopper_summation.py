@@ -13,3 +13,8 @@ def summation(num):
     for n in range(1, num + 1):
         sum += n
     return sum
+
+
+# Cleaner Code
+def summation(num):
+    return sum(range(1, num + 1))
