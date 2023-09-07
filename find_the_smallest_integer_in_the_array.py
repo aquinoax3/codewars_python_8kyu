@@ -7,6 +7,11 @@
 # You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 
+# Cleaner Code
+def find_smallest_int(arr):
+    return min(arr)
+
+
 def find_smallest_int(arr):
     arr.sort()
     return arr[0]
